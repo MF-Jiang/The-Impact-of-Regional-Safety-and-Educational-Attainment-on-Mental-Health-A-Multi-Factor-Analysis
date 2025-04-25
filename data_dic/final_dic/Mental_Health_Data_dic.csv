@@ -1,0 +1,50 @@
+Field Name,Data Type,Description,Constraints,Example
+FIPS,NVARCHAR(MAX),Federal Information Processing Standards code used to identify counties.,Not null,1009
+Year,INT,Year of data survey,Not null,2023
+State,NVARCHAR(MAX),Name of the state.,Nullable,Alabama
+County,NVARCHAR(MAX),Name of the county.,Nullable,Blount
+pct_Frequent_Mental_Distress,FLOAT,Percentage of adults reporting frequent mental distress.,Nullable (numeric),14.85927
+95pct_CI___Low,FLOAT,Lower bound of 95% confidence interval for mental distress.,Nullable (numeric),15
+95pct_CI___High,FLOAT,Upper bound of 95% confidence interval for mental distress.,Nullable (numeric),17
+num_Deaths,FLOAT,Number of suicide deaths.,Nullable (numeric),3910
+Suicide_Rate_Age_Adjusted,FLOAT,"Age-adjusted suicide rate per 100,000 population.",Nullable (numeric),16
+95pct_CI___Low.1,FLOAT,Lower bound of 95% CI for age-adjusted suicide rate.,Nullable (numeric),15
+95pct_CI___High.1,FLOAT,Upper bound of 95% CI for age-adjusted suicide rate.,Nullable (numeric),16
+Crude_Rate,FLOAT,Crude suicide rate.,Nullable (numeric),16
+Suicide_Rate_AIAN,FLOAT,Suicide rate among American Indian/Alaska Native population.,Nullable (numeric),40
+Suicide_Rate_AIAN_95pct_CI___Low,FLOAT,Lower CI for AIAN suicide rate.,Nullable (numeric),35
+Suicide_Rate_AIAN_95pct_CI___High,FLOAT,Upper CI for AIAN suicide rate.,Nullable (numeric),25
+Suicide_Rate_Asian,FLOAT,Suicide rate among Asian population.,Nullable (numeric),14
+Suicide_Rate_Asian_95pct_CI___Low,FLOAT,Lower CI for Asian suicide rate.,Nullable (numeric),16
+Suicide_Rate_Asian_95pct_CI___High,FLOAT,Upper CI for Asian suicide rate.,Nullable (numeric),29
+Suicide_Rate_Black,FLOAT,Suicide rate among Black/African American population.,Nullable (numeric),48
+Suicide_Rate_Black_95pct_CI___Low,FLOAT,Lower CI for Black suicide rate.,Nullable (numeric),87
+Suicide_Rate_Black_95pct_CI___High,FLOAT,Upper CI for Black suicide rate.,Nullable (numeric),97
+Suicide_Rate_Hispanic,FLOAT,Suicide rate among Hispanic population.,Nullable (numeric),13
+Suicide_Rate_Hispanic_95pct_CI___Low,FLOAT,Lower CI for Hispanic suicide rate.,Nullable (numeric),39
+Suicide_Rate_Hispanic_95pct_CI___High,FLOAT,Upper CI for Hispanic suicide rate.,Nullable (numeric),35
+Suicide_Rate_White,FLOAT,Suicide rate among White population.,Nullable (numeric),29
+Suicide_Rate_White_95pct_CI___Low,FLOAT,Lower CI for White suicide rate.,Nullable (numeric),12
+Suicide_Rate_White_95pct_CI___High,FLOAT,Upper CI for White suicide rate.,Nullable (numeric),29
+Population,NVARCHAR(MAX),Total county population.,Nullable,55601
+pct_Less_than_18_Years_of_Age,FLOAT,Percentage of population under 18.,Nullable (numeric),23.7
+pct_65_and_Over,FLOAT,Percentage of population aged 65 and older.,Nullable (numeric),15.6
+num_Black,NVARCHAR(MAX),Number of Black/African American residents.,Nullable,10755
+pct_Black,FLOAT,Percentage of Black/African American residents.,Nullable (numeric),19.3
+num_American_Indian_or_Alaska_Native,NVARCHAR(MAX),Number of AIAN residents.,Nullable,267
+pct_American_Indian_or_Alaska_Native,FLOAT,Percentage of AIAN residents.,Nullable (numeric),0.5
+num_Asian,NVARCHAR(MAX),Number of Asian residents.,Nullable,681
+pct_Asian,FLOAT,Percentage of Asian residents.,Nullable (numeric),1.2
+num_Native_Hawaiian_or_Other_Pacific_Islander,NVARCHAR(MAX),Number of NHOPI residents.,Nullable,146
+pct_Native_Hawaiian_or_Other_Pacific_Islander,FLOAT,Percentage of NHOPI residents.,Nullable (numeric),0.1
+num_Hispanic,NVARCHAR(MAX),Number of Hispanic residents.,Nullable,10131
+pct_Hispanic,FLOAT,Percentage of Hispanic residents.,Nullable (numeric),4.6
+num_Non_Hispanic_White,NVARCHAR(MAX),Number of non-Hispanic White residents.,Nullable,181201
+pct_Non_Hispanic_White,FLOAT,Percentage of non-Hispanic White residents.,Nullable (numeric),83.1
+num_Not_Proficient_in_English,NVARCHAR(MAX),Number of residents not proficient in English.,Nullable,1068
+pct_Not_Proficient_in_English,FLOAT,Percentage of residents not proficient in English.,Nullable (numeric),1
+95pct_CI___Low.2,FLOAT,Lower CI for English proficiency.,Nullable (numeric),0
+95pct_CI___High.2,FLOAT,Upper CI for English proficiency.,Nullable (numeric),1
+pct_Female,FLOAT,Percentage of female population.,Nullable (numeric),50.1
+num_Rural_Residents,FLOAT,Number of rural residents.,Nullable (numeric),150027
+pct_Rural,FLOAT,Percentage of rural population.,Nullable (numeric),41
